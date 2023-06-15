@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filterable responsive lightbox gallery tutorial</title>
+
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="c.css">
+
+</head>
+<body>
+
+
+<div class="gallery">
+
+    <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="C">C</li>
+        <li class="buttons" data-filter="C++">C++</li>
+        <li class="buttons" data-filter="java">java</li>
+        <li class="buttons" data-filter="python">Python</li>
+        <li class="buttons" data-filter="nodejs">Node Js</li>
+        <li class="buttons" data-filter="pascal">pascal</li>
+        <li class="buttons" data-filter="php">php</li>
+        <li class="buttons" data-filter="swift">swift</li>
+        <li class="buttons" data-filter="ruby">ruby</li>
+        <li class="buttons" data-filter="R">R</li>
+        <li class="buttons" data-filter="bash">bash</li>
+        <li class="buttons" data-filter="golang">Go lang</li>
+    </ul>
+    <h2>select any language and pick any website which are given below...!</h2>
+    <div class="image-container">
+        <a href="https://www.programiz.com/c-programming/online-compiler/"  class="image C">
+            <img src="image/programiz.png".image/ alt="center">
+        </a>
+        <a href="https://compiler.javatpoint.com/c/test.jsp?filename=main" class="image C">
+            <img src="./image/IMG-20221210-WA0000.jpg" alt="">
+        </a>
+        <a href="https://workat.tech/ide/online-c-compiler" class="image C">
+            <img src="./image/oaap-Worktech-logo-3x2.png" alt="">
+        </a>
+        <a href="https://www.w3schools.com/c/tryc.php?filename=demo_compiler" class="image C">
+            <img src="./image/W3-MatFrame-895x493px-Qual100.jpg" alt="">
+        </a>
+
+        <a href="https://www.codingninjas.com/codestudio/online-compiler/online-c-compiler" class="image C">
+            <img src="./image/Coding-Ninjas-930x620.jpg" alt="">
+        </a>
+        <a href="https://www.interviewbit.com/online-c-compiler/" class="image C">
+            <img src="./image/IMG-20221213-WA0026(1).jpg" alt="">
+        </a>
+
+        <a href="https://replit.com/languages/c" class="image C">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/c" class="image C">
+            <img src="./image/c_home.jpg" alt="">
+        </a>
+        <a href="https://geekflare.com/online-compiler/c" class="image C">
+            <img src="./image/geekflare-ar21.png" alt="">
+        </a>
+        <a href="https://www.codechef.com/ide" class="image C">
+            <img src="./image/sddefault.jpg" alt="">
+        </a>
+        <a href="https://www.onlinegdb.com/online_c_compiler" class="image C">
+            <img src="./image/maxresdefault.jpg" alt="">
+        </a>
+
+        <a href="https://prepinsta.com/online-c-compiler/" class="image C">
+            <img src="./image/IMG-20221213-WA0016.jpg" alt="">
+        </a>
+        <a href="https://onecompiler.com/c" class="image C">
+            <img src="./image/c-online-compiler.jpg" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/online_c_compiler.php" class="image C">
+            <img src="./image/maxresdefault (1).jpg" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/c-online-compiler/" class="image C">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/c" class="image C">
+            <img src="./image/ideone.jpg" alt="">
+        </a>
+
+        <!--c++-->
+        <a href="https://www.programiz.com/cpp-programming/online-compiler/" class="image C++">
+            <img src="./image/IMG-20221213-WA0000.jpg" alt="">
+        </a>
+        <a href="https://workat.tech/ide/online-cpp-compiler" class="image C++">
+            <img src="./image/logo.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/online-compiler-c++/" class="image C++">
+            <img src="./image/doodle-vector-logo.png" alt="">
+        </a>
+        <a href="https://cpp.sh/" class="image C++">
+            <img src="./image/C-Shell-System-Programming.png" alt="">
+        </a>
+
+        <a href="https://compiler.javatpoint.com/cpp/test.jsp?filename=main" class="image C++">
+            <img src="./image/IMG-20221210-WA0000.jpg" alt="">
+        </a>
+        <a href="https://www.w3schools.com/cpp/trycpp.asp?filename=demo_compiler" class="image C++">
+            <img src="./image/IMG-20221213-WA0022.jpg" alt="">
+        </a>
+
+        <a href="https://www.codingninjas.com/codestudio/online-compiler/online-cpp-compiler" class="image C++">
+            <img src="./image/IMG-20221213-WA0005.jpg" alt="">
+        </a>
+        <a href="https://www.interviewbit.com/online-cpp-compiler/>interview bit" class="image C++">
+            <img src="./image/IMG-20221213-WA0025.jpg" alt="">
+        </a>
+        <a href="https://replit.com/languages/cpp" class="image C++">
+            <img src="./image/replit-logo-png-transparent.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/cpp" class="image C++">
+            <img src="./image/012020_AudioProg_Optimizations-in-C.large.jpg" alt="">
+        </a>
+        <a href="https://geekflare.com/online-compiler/cpp" class="image C++">
+            <img src="./image/geekflare-online-compiler.jpg" alt="">
+        </a>
+
+        <a href="https://www.codechef.com/ide" class="image C++">
+            <img src="./image/IMG-20221213-WA0035.jpg" alt="">
+        </a>
+        <a href="https://www.onlinegdb.com/online_c++_compiler" class="image C++">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://prepinsta.com/online-cpp-compiler/" class="image C++">
+            <img src="./image/PrepInsta-new-logo.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/cpp" class="image C++">
+            <img src="./image/onecompiler.jpg" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/online_cpp_compiler.php" class="image C++">
+            <img src="./image/tu.png" alt="">
+        </a>
+        <!--java-->
+        <a href="https://compiler.javatpoint.com/opr/online-java-compiler.jsp" class="image java">
+            <img src="./image/javatpoint.jpg" alt="">
+        </a>
+        <a href="https://www.programiz.com/java-programming/online-compiler/" class="image java">
+            <img src="./image/programiz-logo1630549344logo.png" alt="">
+        </a>
+        <a href="https://workat.tech/ide/online-java-compiler" class="image java">
+            <img src="./image/logo.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/online-java-compiler/" class="image java">
+            <img src="./image/doodle-vector-logo.png" alt="">
+        </a>
+
+        <a href="https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler" class="image java">
+            <img src="./image/IMG-20221213-WA0023.jpg" alt="">
+        </a>
+        <a href="https://www.codingninjas.com/codestudio/online-compiler/online-java-compiler" class="image java">
+            <img src="./image/Coding-Ninjas-930x620.jpg" alt="">
+        </a>
+
+        <a href="https://www.interviewbit.com/online-java-compiler/" class="image java">
+            <img src="./image/IMG-20221213-WA0026.jpg" alt="">
+        </a>
+        <a href="https://replit.com/languages/java10" class="image java">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/java" class="image java">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://geekflare.com/online-compiler/java" class="image java">
+            <img src="./image/IMG-20221213-WA0034.jpg" alt="">
+        </a>
+        <a href="ttps://www.codechef.com/ide" class="image java">
+            <img src="./image/sddefault.jpg" alt="">
+        </a>
+
+        <a href="https://www.onlinegdb.com/online_java_compiler" class="image java">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://prepinsta.com/online-compiler/" class="image java">
+            <img src="./image/PrepInsta-new-logo.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/java" class="image java">
+            <img src="./image/IMG_20221214_220628.jpg" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/online_java_compiler.php" class="image java">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href=" https://ideone.com/l/java" class="image java">
+            <img src="./image/ideone.jpg" alt="">
+        </a>
+        <!--python-->
+        <a href="https://www.online-python.com/" class="image python">
+            <img src="./image/1_RJMxLdTHqVBSijKmOO5MAg.jpeg" alt="">
+        </a>
+        <a href="https://www.programiz.com/python-programming/online-compiler/" class="image python">
+            <img src="./image/programiz-logo1630549344logo.png" alt="">
+        </a>
+        <a href="https://workat.tech/ide/online-python-compiler" class="image python">
+            <img src="./image/oaap-Worktech-logo-3x2.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/python3-programming-online/" class="image python">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+
+        <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_compiler" class="image python">
+            <img src="./image/IMG-20221213-WA0029.jpg" alt="">
+        </a>
+        <a href="https://www.codingninjas.com/codestudio/online-compiler/online-python-compiler" class="image python">
+            <img src="./image/Coding-Ninjas-930x620.jpg" alt="">
+        </a>
+
+        <a href="https://www.interviewbit.com/online-python-compiler/" class="image python">
+            <img src="./image/OGImage_Python.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/python3" class="image python">
+            <img src="./image/python.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/python" class="image python">
+            <img src="./image/f570db7e-57c8-48df-b904-21f0e87b220b.jpeg" alt="">
+        </a>
+        <a href="https://geekflare.com/online-compiler/python" class="image python">
+            <img src="./image/geekflare-ar21.png" alt="">
+        </a>
+        <a href="https://www.codechef.com/ide " class="image python">
+            <img src="./image/IMG-20221213-WA0035.jpg" alt="">
+        </a>
+
+        <a href="https://www.onlinegdb.com/online_python_compiler" class="image python">
+            <img src="./image/maxresdefault.jpg" alt="">
+        </a>
+        <a href="https://prepinsta.com/online-compiler/" class="image python">
+            <img src="./image/PrepInsta-new-logo.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/python" class="image python">
+            <img src="./image/one.png" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/online_python_compiler.php" class="image python">
+            <img src="./image/tu.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/python" class="image python">
+            <img src="./image/logo (1).png" alt="">
+        </a>
+        <!--node js-->
+        <a href="https://www.tutorialspoint.com/execute_nodejs_online.php" class="image nodejs">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/nodejs" class="image nodejs">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/execute-nodejs-online/" class="image nodejs">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/nodejs" class="image nodejs">
+            <img src="./image/node.js-logo.png" alt="">
+        </a>
+
+        <a href="https://codedamn.com/online-compiler/node" class="image nodejs">
+            <img src="./image/nodejs-1-logo.png" alt="">
+        </a>
+        <a href="https://www.codechef.com/ide" class="image nodejs">
+            <img src="./image/IMG-20221213-WA0035.jpg" alt="">
+        </a>
+        <a href="https://onecompiler.com/nodejs" class="image nodejs">
+            <img src="./image/one.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/node-js" class="image nodejs">
+            <img src="./image/nodejs-logo-black-and-white.png" alt="">
+        </a>
+        <!--pascal-->
+        <a href="https://www.tutorialspoint.com/compile_pascal_online.php" class="image pascal">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href="https://www.onlinegdb.com/online_pascal_compiler" class="image pascal">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/execute-pascal-online/" class="image pascal">
+            <img src="./image/doodle-vector-logo.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/pascal" class="image pascal">
+            <img src="./image/o.png" alt="">
+        </a>
+
+        <a href="https://ideone.com/l/pascal-fpc" class="image pascal">
+            <img src="./image/ideone.jpg" alt="">
+        </a>
+        <!--php-->
+        
+        <a href="https://www.jdoodle.com/php-online-editor/" class="image php">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler" class="image php">
+            <img src="./image/W3-MatFrame-895x493px-Qual100.jpg" alt="">
+        </a>
+        <a href="https://replit.com/languages/php_cli" class="image php">
+            <img src="./image/replit-logo-png-transparent.png" alt="">
+        </a>
+
+        <a href="https://www.mycompiler.io/new/php" class="image php">
+            <img src="" alt="">
+        </a>
+        <a href="https://paiza.io/en/projects/new" class="image php">
+            <img src="./image/cropped-logo-transparent6.png" alt="">
+        </a>
+
+        <a href="https://www.onlinegdb.com/online_php_interpreter" class="image php">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://prepinsta.com/online-compiler/" class="image php">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/php" class="image php">
+            <img src="./image/geekflare-ar21.png" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/execute_php_online.php" class="image php">
+            <img src="./image/sddefault.jpg" alt="">
+        </a>
+        <a href="https://ideone.com/l/php" class="image php">
+            <img src="./image/maxresdefault.jpg" alt="">
+        </a>
+        <!--swift-->
+        <a href="https://www.jdoodle.com/execute-swift-online/" class="image swift">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_swift" class="image swift">
+            <img src="./image/IMG-20221213-WA0029.jpg" alt="">
+        </a>
+        <a href="https://replit.com/languages/swift" class="image swift">
+            <img src="./image/Repl.it_logo.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/swift" class="image swift">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+
+        <a href="ttps://www.onlinegdb.com/online_swift_compiler" class="image swift">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://onecompiler.com/swift" class="image swift">
+            <img src="./image/onecompiler.jpg" alt="">
+        </a>
+
+        <a href="https://www.tutorialspoint.com/compile_swift_online.php" class="image swift">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/swift" class="image swift">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <!--ruby-->
+        <a href="https://workat.tech/ide/online-ruby-compiler" class="image ruby">
+            <img src="./image/oaap-Worktech-logo-3x2.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/execute-ruby-online/" class="image ruby">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/ruby" class="image ruby">
+            <img src="./image/replit-logo-png-transparent.png" alt="">
+        </a>
+        <a href="https://www.mycompiler.io/new/ruby" class="image ruby">
+            <img src="" alt="">
+        </a>
+
+        <a href="https://paiza.io/en/projects/new?language=ruby" class="image ruby">
+            <img src="./image/IMG-20221213-WA0037.jpg" alt="">
+        </a>
+        <a href="https://www.onlinegdb.com/online_ruby_compiler" class="image ruby">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+
+        <a href="ttps://runrb.io/" class="image ruby">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/ruby" class="image ruby">
+            <img src="./image/one.png" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/execute_ruby_online.php" class="image ruby">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/ruby" class="image ruby">
+            <img src="./image/ideone.jpg" alt="">
+        </a>
+        <!--R-->
+        <a href="https://www.w3schools.com/r/tryr.asp?filename=demo_compiler" class="image R">
+            <img src="./image/IMG-20221213-WA0029.jpg" alt="">
+        </a>
+        <a href="https://workat.tech/ide/online-ruby-compiler" class="image R">
+            <img src="./image/workattech-large.png" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/execute-r-online/" class="image R">
+            <img src="./image/doodle-vector-logo.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/ruby" class="image R">
+            <img src="./image/logotype.png" alt="">
+        </a>
+
+        <a href="https://www.mycompiler.io/new/r" class="image R">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://paiza.io/en/projects/new?language=r" class="image R">
+            <img src="./image/IMG-20221213-WA0011.jpg" alt="">
+        </a>
+
+        <a href="https://www.onlinegdb.com/online_r_interpreter" class="image R">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://rextester.com/l/r_online_compiler" class="image R">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://onecompiler.com/r" class="image R">
+            <img src="./image/onecompiler.jpg" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/execute_r_online.php" class="image R">
+            <img src="./image/1200x630wa.png" alt="">
+        </a>
+        <a href="https://www.online-ide.com/online_r_compiler" class="image R">
+            <img src="./image/maxresdefault.jpg" alt="">
+        </a>
+
+        <a href="https://ideone.com/l/r" class="image R">
+            <img src="./image/prepinsta-logo.png" alt="">
+        </a>
+        <!--bash-->
+        <a href="https://www.w3schools.com/r/tryr.asp?filename=demo_compiler" class="image bash">
+            <img src="./image/IMG-20221213-WA0023.jpg" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/test-bash-shell-script-online/" class="image bash">
+            <img src="./image/doodle-alternative.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/bash" class="image bash">
+            <img src="./image/logotype.png" alt="">
+        </a>
+        <a href="https://rextester.com/l/bash_online_compiler" class="image bash">
+            <img src="" alt="">
+        </a>
+
+        <a href="https://www.mycompiler.io/new/bash" class="image bash">
+            <img src="" alt="">
+        </a>
+        <a href="https://paiza.io/en/projects/new?language=bash" class="image bash">
+            <img src="./image/IMG-20221213-WA0013.jpg" alt="">
+        </a>
+
+        <a href="https://www.onlinegdb.com/online_bash_shell" class="image bash">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+        <a href="https://onecompiler.com/bash" class="image bash">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/execute_bash_online.php" class="image bash">
+            <img src="./image/tu.png" alt="">
+        </a>
+        <a href="https://www.online-ide.com/online_r_compiler" class="image bash">
+            <img src="" alt="">
+        </a>
+        <a href="https://ideone.com/l/bash" class="image bash">
+            <img src="./image/ideone.jpg" alt="">
+        </a>
+        <!--go lang-->
+        <a href="https://www.w3schools.com/go/trygo.php?filename=demo_helloworld" class="image golang">
+            <img src="./image/W3-MatFrame-895x493px-Qual100.jpg" alt="">
+        </a>
+        <a href="https://www.jdoodle.com/execute-go-online/" class="image golang">
+            <img src="./image/doodle-vector-logo.png" alt="">
+        </a>
+        <a href="https://replit.com/languages/go" class="image golang">
+            <img src="./image/Repl.it_logo.png" alt="">
+        </a>
+        <a href="https://rextester.com/l/go_online_compiler" class="image golang">
+            <img src="./image/" alt="">
+        </a>
+
+        <a href="https://www.mycompiler.io/new/go" class="image golang">
+            <img src="./image/mycompiler-logo-256.png" alt="">
+        </a>
+        <a href="https://www.onlinegdb.com/online_go_compiler" class="image golang">
+            <img src="./image/gdb-logo-gdb-letter-gdb-letter-logo-design-initials-gdb-logo-linked-with-circle-and-uppercase-monogram-logo-gdb-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="">
+        </a>
+
+        <a href="https://onecompiler.com/go" class="image golang">
+            <img src="./image/one.png" alt="">
+        </a>
+        <a href="https://www.tutorialspoint.com/execute_golang_online.php" class="image golang">
+            <img src="./image/logo-color-footer.png" alt="">
+        </a>
+        <a href="https://ideone.com/l/bash" class="image golang">
+            <img src="./image/142366951831152logo_big.png" alt="">
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+   /*$('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        } 
+
+    }); */
+
+}); 
+
+</script>
+    
+</body>
+</html>
